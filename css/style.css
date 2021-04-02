@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+nav.navbar {
+  box-shadow: none;
+  background: transparent;
+}
+nav.navbar .navbar-brand img {
+  width: 100px;
+  height: 64px;
+}
+
+/* bg-section */
+
+.lr-g {
+  background: linear-gradient(to right, #fff 50%, #f7f43e 50%);
+  /* height: 500px; */
+  margin-top: -60px;
+}
+.lr-g .container {
+  padding-top: 50px;
+}
+.lr-g .container img {
+  width: 100%;
+}
+.lr-g .container .talk {
+  margin-top: 130px;
+  font-weight: 600;
+  line-height: initial;
+}
+
+/* images */
+
+.images h2 {
+  padding: 20px 10px;
+}
+
+.images img {
+  width: 99%;
+  height: 300px;
+  margin-top: 20px;
+}
+/* bg-section */
+.bg {
+  margin-top: 20px;
+  background-image: url("../img/781822.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* team */
+.team {
+    text-align: center;
+    overflow: hidden;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 0
+}
+
+.team .team-item {
+    text-align: left;
+    margin-bottom: 30px
+}
+
+.team .team-item figure {
+    position: relative;
+    overflow: hidden;
+ }
+
+img {
+    max-width: 100%
+}
+
+.team .team-item figure figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(9, 9, 9, .6);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.team .team-item figure figcaption .info {
+    position: absolute;
+    color: #fff;
+    float: left;
+    bottom: 10px;
+    left: 20px;
+    margin-left: -80px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.team .team-item figure:hover figcaption {
+    opacity: 1
+}
+
+.team .team-item figure:hover figcaption .info {
+    margin-left: 0
+}
+
+.team .team-item figure figcaption .info h3 {
+    font-size: 20px
+}
+
+.team .team-item figure figcaption .info p {
+    color: #fff
+}
+
+.team .team-item figure:hover figcaption .social {
+    margin-bottom: 0
+}
+.team .team-item figure img{
+    width: 100%;
+    height: 300px;
+    /* padding: 0px 5px; */
+}
+
+.team .team-item figure figcaption .social {
+    position: absolute;
+    float: right;
+    bottom: 28px;
+    margin-bottom: -80px;
+    right: 20px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.team .team-item figure figcaption .social a {
+    color: #fff;
+    font-size: 15px;
+    width: 36px;
+    height: 36px;
+    background: #3f51b5;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 2px
+}
+
+/* footer */
+footer{
+    background: linear-gradient(to right, #fff 50%, #f7f43e 50%);
+}
